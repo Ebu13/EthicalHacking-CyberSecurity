@@ -1,0 +1,129 @@
+┌──()-[~]
+└─$ history
+    1  su root
+    2  su root
+    3  sudo su root
+    4  sudo su root
+    5  run python
+    6  sudo
+    7  sudo su root
+    8  sudo apt-get update && apt-get full-upgrade -y
+    9  sudo apt-get update && sudo apt-get full-upgrade -y
+   10  history
+   11  sudo apt-get update && sudo apt-get full-upgrade -y
+   12  sudo su root
+   13  sudo apt install scrcpy
+   14  sudo apt update
+   15  sudo apt install adb
+   16  sudo apt install ffmpeg
+   17  sudo apt install scrcpy
+   18  sudo su root
+   19  dpkg –list
+   20  sudo su root
+   21  masscan
+   22  sudo su root
+   23  exit
+   24  sudo su root
+   25  sudo history
+
+
+┌──()-[~]
+└─$ sudo su root
+┌──(]
+└─# history  
+    1  passwd
+    2  apt-get install terminator
+    3  wr
+    4  whr
+    5  whereis terminator
+    6  apt-get update && apt-get upgrade -y
+    7  passwd
+    8  arp-scan -l
+    9  nmap 192.168.1.33 -sV
+   10  arp-scan -l
+   11  nmap 192.168.1.37 -sV
+   12  cat /etc/passwd | wc -l
+   13  wc -l /etc/passwd
+   14  nettiscover
+   15  dpkg-reconfigure locales
+   16  history
+   17  cat /etc/passwd | cut -d: -f1
+   18  dpkg-reconfigure locales
+   19  arp-scan -l
+   20  nmap 192.168.1.35 -s
+   21  nmap 192.168.1.35 -sV
+   22  sudo apt-get install scrcpy
+   23  sudo apt install scrcpy
+   24  arp-scan -l
+   25  arp-scan
+   26  arp-scan -l
+   27  nmap 192.168.1.35 -sV
+   28  nmap 192.168.1.37 -sV
+   29  arp-scan -l
+   30  nmap 192.168.1.41 -sV
+   31  apt-get update && apt-get upgrade -y
+   32  sudo dpkg -list
+   33  dpkg-list
+   34  dpkg -list
+   35  arp-scan -l
+   36  dpkg -list
+   37  arp-scan -l
+   38  airmon-ng
+   39  airmon-ng start wlan0
+   40  airodump-ng --encrypt wpa mon0
+   41  airmon-ng
+   42  ifconfig
+   43  airmon-ng start wlan0
+   44  airmon-ng check kill
+   45  airmon-ng
+   46  airmon-ng start wlan0
+   47  airodump-ng [phy0]wlan0
+   48  airodump-ng [phy0]10
+   49  airodump-ng wlan0phy0
+   50  clear
+   51  cls
+   52  close
+   53  exit
+   54  airmon-ng start wlan0
+   55  airodump-ng --channel 8 --bssid 08:26:97:B0:5A:77 wlan0
+   56  iwconfig
+   57  airmon-ng start wlan0
+   58  iwconfig
+   59  clear
+   60  airodump-ng wlan0
+   61  crunch 5 20 as123 -o /root/Masaüstü/sifre.txt
+   62  crunch 5 20 as123 -o /home/admin/Desktop
+   63  crunch 8 9 as123 -o /home/admin/Desktop
+   64  crunch 8 9 as123 -o /home/admin/Desktop/sifre.txt
+   65  crunch 5 20 ayseldikbromn1234567890ht -o /home/admin/Desktop/sifre.txt
+   66  airodump-ng wlan0
+   67  airmon-ng start wlan0
+   68  dhclient wlan0
+   69  airmon-ng stop wlan0
+   70  dhclient wlan0
+   71  iwconfig
+   72  ifconfig wlan0 down
+   73  ifconfig wlan0 mode managed
+   74  iwconfig wlan0 mode managed
+   75  ifconfig wlan0 up
+   76  ifconfig wlan0 down
+   77  iwconfig wlan0 mode monitor
+   78  ifconfig wlan0 up
+   79  iwconfig wlan0 mode monitor
+   80  iwconfig
+   81  airmon-ng stop wlan0
+   82  service NetworkManager restart
+   83  iwconfig
+   84  airmon-ng stop wlan0
+   85  airmon-ng stop wlan0phy0
+   86  service NetworkManager restart
+   87  iwconfig
+   88  wifite
+   89  airmon-ng start wlan0
+   90  airodump-ng wlan0mon
+   91  airodump-ng wlan0phy0
+   92  airodump-ng wlan0
+   93  crunch 8 9 sifre123 -o /home/admin/Desktop/sifre.txt
+   94  ls
+   95  aircrack-ng hackkingwifi-01.cap -w /Desktop/sifre.txt
+   96  aircrack-ng hackkingwifi-01.cap -w /home/admin/Desktop/sifre.txt
