@@ -1,0 +1,42 @@
+Kali Linux ile çalışmak
+Kali Linux Dosya Yönetimi ve Navigasyon
+Genel Linux komutlarına hakim olmak
+İnternet Ağları Nasıl Çalışır?
+VPN kullanımı DNS değiştirme
+Deep Web e gir Tor ile
+Ağlara saldır
+Network Penetration
+Mac Adresi
+Monitor ve Managed mod Yönetimi
+Ağ Bilgileri Toplamak
+Deauth Saldırısı
+WEP ayarları
+WEP şifrelerini kırmak
+Sahte Yetkilendirme
+WPA nedir?
+Wifi kırmak
+Netdiscover
+nmap ve ARP
+Wireshark ve bettercap
+ARP Poison ve ARP Spoof
+Https
+Caplet Değiştirmek
+Sunucuya ve Bilgisayara sızmak
+Telnet ve SSH
+Samba ve  meterpreter
+smtp ve vnc
+Beef kullanımı
+OSI modeli nedir
+Ngrok-Tunneling Servisleri
+Prompt Enjeksiyonu
+Bir çok temel hacking saldırısına ve önlemlerine hakim olmak
+Metasploit ve Maltego ya hakim olmak
+Shodan ve Trojanlar
+XSS açıklarını öğrenmek
+Websitelerini hackleme yöntemlerine ve önlemlerine hakim olmak
+SQL aşılama saldırılarını öğrenmek
+SQL kodlarına hakim olmak
+Ortadaki Adam saldırılarını öğrenmek
+Sosyal mühendislik konusuna hakim olmak
+Network Temellerini öğrenmek
+Tünel Servis Hizmetleriyle Çalışmayı Öğrenmek
