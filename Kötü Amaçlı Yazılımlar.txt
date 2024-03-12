@@ -1,0 +1,7 @@
+Oltalama (Phishing)
+Kötücül yazılım (Malware)
+Truva atı- Trojan
+Virüs
+Solucan – Worm
+Casus yazılım – Spyware
+Reklam içerikli yazılımlar – Adware

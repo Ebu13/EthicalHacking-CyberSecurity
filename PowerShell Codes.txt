@@ -1,0 +1,291 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Windows\system32> $parameters = @{
+>> From = 'from@bar.com'
+>> To = 'to@bar.com'
+>> Subject = 'Email Subject'
+>> Attachments = @('C:\files\samplefile1.txt','C:\files\samplefile2.txt')
+>> BCC = 'bcc@bar.com'
+>> Body = 'Email body'
+>> BodyAsHTML = $False
+>> CC = 'cc@bar.com'
+>> Credential = Get-Credential
+>> DeliveryNotificationOption = 'onSuccess'
+>> Encoding = 'UTF8'
+>> Port = '25'
+>> Priority = 'High'
+>> SmtpServer = 'smtp.com'
+>> UseSSL = $True
+>> }
+
+cmdlet Get-Credential at command pipeline position 1
+Supply values for the following parameters:
+Credential
+PS C:\Windows\system32> Send-MailMessage @parameters
+Send-MailMessage : 'C:\files\samplefile1.txt' yolunun bir parçası bulunamadı.
+At line:1 char:1
++ Send-MailMessage @parameters
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Send-MailMessage], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.SendMailMessage
+
+PS C:\Windows\system32> Send-MailMessage @parameters
+Send-MailMessage : 'C:\files\samplefile1.txt' yolunun bir parçası bulunamadı.
+At line:1 char:1
++ Send-MailMessage @parameters
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Send-MailMessage], DirectoryNotFoundException
+    + FullyQualifiedErrorId : System.IO.DirectoryNotFoundException,Microsoft.PowerShell.Commands.SendMailMessage
+
+PS C:\Windows\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 $parameters = @{...
+   2 Send-MailMessage @parameters
+   3 Send-MailMessage @parameters
+
+
+PS C:\Windows\system32> h
+
+  Id CommandLine
+  -- -----------
+   1 $parameters = @{...
+   2 Send-MailMessage @parameters
+   3 Send-MailMessage @parameters
+   4 history
+
+
+PS C:\Windows\system32> echo 'Ebubekir'
+Ebubekir
+PS C:\Windows\system32> cd ..
+PS C:\Windows> cd..
+PS C:\> ls
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9.02.2024     02:54                Intel
+d-----         7.12.2019     12:14                PerfLogs
+d-r---        13.03.2024     02:05                Program Files
+d-r---        13.03.2024     02:06                Program Files (x86)
+d-----        13.03.2024     02:05                SWSetup
+d-----        13.03.2024     02:05                system.sav
+d-r---         9.02.2024     13:41                Users
+d-----         5.03.2024     08:03                Windows
+
+
+PS C:\> cd Users
+PS C:\Users> ls
+
+
+    Directory: C:\Users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9.02.2024     13:43                Administrator
+d-----         9.03.2024     20:48                ebube
+d-r---         9.02.2024     01:43                Public
+
+
+PS C:\Users> cd ebube
+PS C:\Users\ebube> cd masaüstü
+PS C:\Users\ebube\masaüstü> cd Yazılım
+PS C:\Users\ebube\masaüstü\Yazılım> ls
+
+
+    Directory: C:\Users\ebube\masaüstü\Yazılım
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         5.01.2024     21:52                Java Docs
+d-----        11.03.2024     14:02                Projects
+-a----        12.03.2024     00:17       23347016 Algoritma Analizi.zip
+-a----         8.03.2024     17:59       11187146 DesigningWithTheMindInMindSimple-Johnson-Kaufmann2010.pdf
+-a----        12.03.2024     00:29        4901275 docker cheat sheet.pdf
+-a----        12.03.2024     00:29        4730138 Docker Guide.pdf
+-a----        11.03.2024     13:57        2607237 GitNotesForProfessionals.pdf
+-a----         8.03.2024     17:59       13617344 Software_Requirements_3rd_Edition_compressed.pdf
+-a----         8.03.2024     17:59        6832283 Veri Bilimi Ders Notları.zip
+
+
+PS C:\Users\ebube\masaüstü\Yazılım> cd Projects
+PS C:\Users\ebube\masaüstü\Yazılım\Projects> ls
+
+
+    Directory: C:\Users\ebube\masaüstü\Yazılım\Projects
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11.03.2024     14:02                AdvancedJava
+d-----        11.03.2024     14:22                AdvancedPython
+d-----        10.02.2024     15:04                Cryptology
+d-----        11.03.2024     23:38                DatabaseManagement_Sql
+d-----        14.02.2024     22:23                DataStructures_Algorithms
+d-----         6.03.2024     00:22                ebu13.github.io
+d-----        13.03.2024     01:00                EthicalHacking-CyberSecurity
+d-----        13.03.2024     00:43                MathDataOps
+d-----        11.03.2024     14:02                SpringBoot
+
+
+PS C:\Users\ebube\masaüstü\Yazılım\Projects> ls
+
+
+    Directory: C:\Users\ebube\masaüstü\Yazılım\Projects
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11.03.2024     14:02                AdvancedJava
+d-----        11.03.2024     14:22                AdvancedPython
+d-----        10.02.2024     15:04                Cryptology
+d-----        11.03.2024     23:38                DatabaseManagement_Sql
+d-----        14.02.2024     22:23                DataStructures_Algorithms
+d-----         6.03.2024     00:22                ebu13.github.io
+d-----        13.03.2024     01:00                EthicalHacking-CyberSecurity
+d-----        13.03.2024     00:43                MathDataOps
+d-----        11.03.2024     14:02                SpringBoot
+
+
+PS C:\Users\ebube\masaüstü\Yazılım\Projects> cd ..
+PS C:\Users\ebube\masaüstü\Yazılım> ls
+
+
+    Directory: C:\Users\ebube\masaüstü\Yazılım
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         5.01.2024     21:52                Java Docs
+d-----        11.03.2024     14:02                Projects
+-a----        12.03.2024     00:17       23347016 Algoritma Analizi.zip
+-a----         8.03.2024     17:59       11187146 DesigningWithTheMindInMindSimple-Johnson-Kaufmann2010.pdf
+-a----        12.03.2024     00:29        4901275 docker cheat sheet.pdf
+-a----        12.03.2024     00:29        4730138 Docker Guide.pdf
+-a----        11.03.2024     13:57        2607237 GitNotesForProfessionals.pdf
+-a----         8.03.2024     17:59       13617344 Software_Requirements_3rd_Edition_compressed.pdf
+-a----         8.03.2024     17:59        6832283 Veri Bilimi Ders Notları.zip
+
+
+PS C:\Users\ebube\masaüstü\Yazılım> Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" -ArgumentList "Docker Guide.pdf"
+Start-Process : This command cannot be run due to the error: Sistem belirtilen dosyayı bulamıyor.
+At line:1 char:1
++ Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\Users\ebube\masaüstü\Yazılım> Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" -ArgumentList "C:\Users\ebube\Masaüstü\Yazılım\Docker Guide.pdf"
+Start-Process : This command cannot be run due to the error: Sistem belirtilen dosyayı bulamıyor.
+At line:1 char:1
++ Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\Users\ebube\masaüstü\Yazılım> cd ..
+PS C:\Users\ebube\masaüstü> cd ..
+PS C:\Users\ebube> cd ..
+PS C:\Users> cd..
+PS C:\> cd..
+PS C:\> Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" -ArgumentList "C:\Users\ebube\Masaüstü\Yazılım\Docker Guide.pdf"
+Start-Process : This command cannot be run due to the error: Sistem belirtilen dosyayı bulamıyor.
+At line:1 char:1
++ Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+PS C:\> Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "C:\Users\ebube\Masaüstü\Yazılım\Docker Guide.pdf"
+PS C:\> Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "Docker Guide.pdf"
+
+PS C:\> cd users
+PS C:\users> cd ebube
+PS C:\users\ebube> cd masaüstü
+PS C:\users\ebube\masaüstü> cd yazılım
+PS C:\users\ebube\masaüstü\yazılım> ls
+
+
+    Directory: C:\users\ebube\masaüstü\yazılım
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         5.01.2024     21:52                Java Docs
+d-----        11.03.2024     14:02                Projects
+-a----        12.03.2024     00:17       23347016 Algoritma Analizi.zip
+-a----         8.03.2024     17:59       11187146 DesigningWithTheMindInMindSimple-Johnson-Kaufmann2010.pdf
+-a----        12.03.2024     00:29        4901275 docker cheat sheet.pdf
+-a----        12.03.2024     00:29        4730138 Docker Guide.pdf
+-a----        11.03.2024     13:57        2607237 GitNotesForProfessionals.pdf
+-a----         8.03.2024     17:59       13617344 Software_Requirements_3rd_Edition_compressed.pdf
+-a----         8.03.2024     17:59        6832283 Veri Bilimi Ders Notları.zip
+
+
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "Docker Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "Docker Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "Docker Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "Youtube.com"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "C:\users\ebube\masaüstü\yazılım\Docker Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "C:\users\ebube\masaüstü\yazılım\Docker Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "C:\users\ebube\masaüstü\yazılım\Docker%20Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "file:///C:/users/ebube/masa%C3%BCst%C3%BC/yaz%C4%B1l%C4%B1m/Docker%20Guide.pdf"
+PS C:\users\ebube\masaüstü\yazılım> history
+
+  Id CommandLine
+  -- -----------
+   1 $parameters = @{...
+   2 Send-MailMessage @parameters
+   3 Send-MailMessage @parameters
+   4 history
+   5 h
+   6 echo 'Ebubekir'
+   7 cd ..
+   8 cd..
+   9 ls
+  10 cd Users
+  11 ls
+  12 cd ebube
+  13 cd masaüstü
+  14 cd Yazılım
+  15 ls
+  16 cd Projects
+  17 ls
+  18 ls
+  19 cd ..
+  20 ls
+  21 Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" -ArgumentList "Doc...
+  22 Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" -ArgumentList "C:\...
+  23 cd ..
+  24 cd ..
+  25 cd ..
+  26 cd..
+  27 cd..
+  28 Start-Process -FilePath "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe" -ArgumentList "C:\...
+  29 Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "C:\Users\ebube\M...
+  30 Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "Docker Guide.pdf"
+  31 cd users
+  32 cd ebube
+  33 cd masaüstü
+  34 cd yazılım
+  35 ls
+  36 Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "Docker Guide.pdf"
+  37 Start-Process -FilePath "C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe" -ArgumentList "Docker Guide.pdf"
+  38 Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "Docker Guide.pdf"
+  39 Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "Youtube.com"
+  40 Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "C:\users\ebube\m...
+  41 Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "C:\users\ebube\m...
+  42 Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "C:\users\ebube\m...
+  43 Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "file:///C:/users...
+
+
+// Start-Process uygulamaları çalıştırmak için kullanılan bir işlemdir.
