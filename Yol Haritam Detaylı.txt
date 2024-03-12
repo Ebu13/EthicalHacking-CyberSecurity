@@ -1,42 +1,54 @@
-Kali Linux ile çalışmak
-Kali Linux Dosya Yönetimi ve Navigasyon
-Genel Linux komutlarına hakim olmak
-İnternet Ağları Nasıl Çalışır?
-VPN kullanımı DNS değiştirme
-Deep Web e gir Tor ile
-Ağlara saldır
-Network Penetration
-Mac Adresi
-Monitor ve Managed mod Yönetimi
-Ağ Bilgileri Toplamak
-Deauth Saldırısı
-WEP ayarları
-WEP şifrelerini kırmak
-Sahte Yetkilendirme
-WPA nedir?
-Wifi kırmak
-Netdiscover
-nmap ve ARP
-Wireshark ve bettercap
-ARP Poison ve ARP Spoof
-Https
-Caplet Değiştirmek
-Sunucuya ve Bilgisayara sızmak
-Telnet ve SSH
-Samba ve  meterpreter
-smtp ve vnc
-Beef kullanımı
-OSI modeli nedir
-Ngrok-Tunneling Servisleri
-Prompt Enjeksiyonu
-Bir çok temel hacking saldırısına ve önlemlerine hakim olmak
-Metasploit ve Maltego ya hakim olmak
-Shodan ve Trojanlar
-XSS açıklarını öğrenmek
-Websitelerini hackleme yöntemlerine ve önlemlerine hakim olmak
-SQL aşılama saldırılarını öğrenmek
-SQL kodlarına hakim olmak
-Ortadaki Adam saldırılarını öğrenmek
-Sosyal mühendislik konusuna hakim olmak
-Network Temellerini öğrenmek
-Tünel Servis Hizmetleriyle Çalışmayı Öğrenmek
+
+**1. Temel Bilgiler ve Linux Temelleri:**
+
+- Linux işletim sistemini temel düzeyde öğrenin: dosya sistemleri, kullanıcı yönetimi, dosya ve dizin işlemleri.
+- Linux komut satırıyla çalışma pratiği yapın.
+- İnternet üzerinde bulunan ücretsiz kaynakları ve çevrimiçi eğitim platformlarını kullanarak Linux temellerini öğrenin.
+
+**2. Ağ Temelleri:**
+
+- TCP/IP protokol ailesi ve temel ağ kavramlarını öğrenin.
+- Router, switch, hub gibi ağ cihazlarının nasıl çalıştığını anlayın.
+- OSI modelini detaylı bir şekilde öğrenin ve her katmanın ne işe yaradığını anlayın.
+
+**3. Mobil Güvenlik ve Uygulama Testleri:**
+
+- Mobil cihaz güvenliği üzerine temel bilgiler edinin.
+- Android ve iOS işletim sistemlerinin güvenlik yapılarını inceleyin.
+- Mobil uygulama test araçları ve teknikleri hakkında bilgi edinin.
+
+**4. Web Güvenliği ve Uygulama Testleri:**
+
+- Web uygulamalarının nasıl çalıştığını ve temel güvenlik zafiyetlerini öğrenin.
+- XSS, SQL Injection, CSRF gibi saldırı tiplerini anlamak için uygulamalı eğitimler alın.
+- Web uygulama güvenlik araçlarını (örneğin Burpsuite) kullanmayı öğrenin.
+
+**5. Oyun Güvenliği ve Tersine Mühendislik:**
+
+- Oyun güvenliği ve oyun sızma testlerini öğrenmek için temel kaynaklar ve eğitimler araştırın.
+- Tersine mühendislik konusunda temel bilgiler edinin ve bu alanda pratiğe yönelik kaynaklar bulun.
+
+**6. Programlama Dilleri ve Araçlar:**
+
+- Python, Bash, ve bir programlama dilini daha derinlemesine öğrenin.
+- Metasploit, Nmap, Wireshark gibi güvenlik araçlarını kullanmayı öğrenin.
+
+**7. Siber Güvenlik Derinlemesine Bilgisi:**
+
+- Ağ içi saldırı tekniklerini, yetki yükseltme yöntemlerini ve exploit geliştirme konularını derinlemesine öğrenin.
+- Kernel exploit, rootkitler ve diğer gelişmiş siber saldırı teknikleri hakkında bilgi edinin.
+
+**8. Özel Konular ve Derinlemesine Bilgi:**
+
+- Bulut güvenliği, IoT güvenliği, OT güvenliği gibi özel alanlara yönelik eğitimler alın.
+- Güncel tehditler ve güvenlik trendleri hakkında araştırmalar yapın.
+
+**9. Uygulamalı Proje ve Gerçek Hayat Senaryoları:**
+
+- Kendi ortamınızda güvenlik zafiyetleri tespiti ve çözümü için uygulamalı projeler yapın.
+- Siber güvenlikte sık karşılaşılan senaryoları simüle eden sanal lab ortamlarında pratik yapın.
+
+**10. Sertifikasyonlar ve Topluluk Katılımı:**
+
+- CISSP, CEH, OSCP gibi siber güvenlik sertifikalarına yönelik hazırlık yapın.
+- Siber güvenlik topluluklarına katılın, forumlarda sorular sorun ve deneyim paylaşımında bulunun.
